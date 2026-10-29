@@ -29,8 +29,6 @@ shown in **ROI Reflectance Curves**.
 
 ### False-color wavelength combinations
 
-### Wavelength animation
-
 ![Wavelength sweep](Result/wavelength_sweep.gif)
 
 The animation changes the red, green, and blue channels independently using
