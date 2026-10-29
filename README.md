@@ -1,0 +1,49 @@
+# White Powder Hyperspectral IR Analysis
+
+This project analyzes white powder using hyperspectral infrared data
+(918–2532 nm). It performs white/dark reference correction, interactive
+pixel-spectrum inspection, and false-color wavelength visualization.
+
+## Results
+
+### ROI and spectral reflectance
+
+![ROI visualization](Result/03_roi_visualization.png)
+
+![Reflectance spectra](Result/05_camera_spectra.png)
+
+### False-color wavelength combinations
+
+![RGB wavelength grid](Result/rgb_grid_3x3.png)
+
+### Wavelength animation
+
+![Wavelength sweep](Result/wavelength_sweep.gif)
+
+The animation changes the red, green, and blue channels independently using
+10 nm wavelength steps within their selected spectral ranges.
+
+## Run locally
+
+Install the required packages:
+
+```bash
+pip install numpy matplotlib spectral pillow
+```
+
+Place the three ENVI header files in `dataset/`:
+
+```text
+dataset/
+├── ir med_sim_powder_scan_0551.hdr
+├── WHITEREF_ir med_sim_powder_scan_0551.hdr
+└── DARKREF_ir med_sim_powder_scan_0551.hdr
+```
+
+Run:
+
+```bash
+python White_Powder_IR.py
+```
+
+The source hyperspectral data is not included in this repository.
