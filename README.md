@@ -8,9 +8,12 @@ pixel-spectrum inspection, and false-color wavelength visualization.
 
 ### ROI and spectral reflectance
 
-![ROI visualization](Result/03_roi_visualization.png)
-
-![Reflectance spectra](Result/05_camera_spectra.png)
+<table>
+<tr>
+<td><img src="Result/03_roi_visualization.png" alt="ROI visualization"></td>
+<td><img src="Result/05_camera_spectra.png" alt="Reflectance spectra"></td>
+</tr>
+</table>
 
 ### False-color wavelength combinations
 
