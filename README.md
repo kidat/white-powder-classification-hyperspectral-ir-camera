@@ -10,8 +10,8 @@ pixel-spectrum inspection, and false-color wavelength visualization.
 
 <table>
 <tr>
-<td><img src="Result/03_roi_visualization.png" alt="ROI visualization"></td>
-<td><img src="Result/05_camera_spectra.png" alt="Reflectance spectra"></td>
+<td><img src="Result/03_roi_visualization.png" alt="ROI visualization" width="100%"></td>
+<td><img src="Result/05_camera_spectra.png" alt="Reflectance spectra" width="100%"></td>
 </tr>
 </table>
 

@@ -70,9 +70,8 @@ for i, ((x1, x2, y1, y2), color) in enumerate(zip(rois, colors), 1):
 
 # Visualize ROI locations and click a point to show its reflectance
 plt.rcParams['figure.dpi'] = 150
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(figsize=(8, 5))
 ax.imshow(RGB2)
-ax.set_title("Click a point to plot its reflectance")
 ax.axis("off")
 spectrum_fig, spectrum_ax = plt.subplots(figsize=(8, 5))
 spectrum_ax.set_xlabel("Wavelength (nm)")
@@ -90,7 +89,8 @@ def show_spectrum(event):
         spectrum_fig.canvas.draw_idle()
 
 fig.canvas.mpl_connect("button_press_event", show_spectrum)
-fig.savefig("Result/03_roi_visualization.png", dpi=150, bbox_inches="tight")
+fig.savefig("Result/03_roi_visualization.png", dpi=150)
+ax.set_title("Click a point to plot its reflectance")
 plt.show()
 
 # Plot spectral signatures from all ROIs
@@ -101,7 +101,7 @@ plt.xlabel("Wavelength (nm)")
 plt.ylabel("Reflectance")
 plt.title("Spectral Reflectance After White/Dark Correction")
 plt.legend()
-plt.savefig("Result/05_camera_spectra.png", dpi=150, bbox_inches="tight")
+plt.savefig("Result/05_camera_spectra.png", dpi=150)
 plt.show()
 
 # ============================================================================
