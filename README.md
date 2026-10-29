@@ -8,12 +8,9 @@ pixel-spectrum inspection, and false-color wavelength visualization.
 
 <table>
 <tr>
-<th align="left">Selected ROIs</th>
-<th align="right">ROI Reflectance Curves</th>
+<th align="center">Selected ROIs</th>
+<th align="center">ROI Reflectance Curves</th>
 </tr>
-</table>
-
-<table>
 <tr>
 <td width="50%">
 <img src="Result/03_roi_visualization.png" alt="Selected ROI visualization" width="100%">
@@ -24,8 +21,7 @@ pixel-spectrum inspection, and false-color wavelength visualization.
 </tr>
 </table>
 
-The colored regions in **Selected ROIs** correspond to the same ROI curves
-shown in **ROI Reflectance Curves**.
+The colored regions in **Selected ROIs** correspond to the same ROI curves shown in **ROI Reflectance Curves**.
 
 ### False-color wavelength combinations
 
