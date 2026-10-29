@@ -99,7 +99,6 @@ for i, spec in enumerate(spectra, 1):
     plt.plot(wavelength, spec, label=f"ROI {i}")
 plt.xlabel("Wavelength (nm)")
 plt.ylabel("Reflectance")
-plt.title("Spectral Reflectance After White/Dark Correction")
 plt.legend()
 plt.savefig("Result/05_camera_spectra.png", dpi=150)
 plt.show()

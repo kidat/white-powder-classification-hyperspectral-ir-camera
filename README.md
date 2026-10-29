@@ -6,14 +6,21 @@ pixel-spectrum inspection, and false-color wavelength visualization.
 
 ## Results
 
-### ROI and spectral reflectance
-
 <table>
 <tr>
-<td><img src="Result/03_roi_visualization.png" alt="ROI visualization" width="100%"></td>
-<td><img src="Result/05_camera_spectra.png" alt="Reflectance spectra" width="100%"></td>
+<td>
+<h3>Selected ROIs</h3>
+<img src="Result/03_roi_visualization.png" alt="Selected ROI visualization" width="100%">
+</td>
+<td>
+<h3>ROI Reflectance Curves</h3>
+<img src="Result/05_camera_spectra.png" alt="Reflectance curves for selected ROIs" width="100%">
+</td>
 </tr>
 </table>
+
+The colored regions in **Selected ROIs** correspond to the same ROI curves
+shown in **ROI Reflectance Curves**.
 
 ### False-color wavelength combinations
 
