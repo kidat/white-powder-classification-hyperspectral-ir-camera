@@ -6,14 +6,19 @@ pixel-spectrum inspection, and false-color wavelength visualization.
 
 ## Results
 
-### Selected ROIs                                                                       ROI Reflectance Curves
+<table>
+<tr>
+<th align="left">Selected ROIs</th>
+<th align="left">ROI Reflectance Curves</th>
+</tr>
+</table>
 
 <table>
 <tr>
-<td>
+<td width="50%">
 <img src="Result/03_roi_visualization.png" alt="Selected ROI visualization" width="100%">
 </td>
-<td>
+<td width="50%">
 <img src="Result/05_camera_spectra.png" alt="Reflectance curves for selected ROIs" width="100%">
 </td>
 </tr>
