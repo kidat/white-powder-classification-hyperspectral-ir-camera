@@ -9,7 +9,7 @@ pixel-spectrum inspection, and false-color wavelength visualization.
 <table>
 <tr>
 <th align="left">Selected ROIs</th>
-<th align="left">ROI Reflectance Curves</th>
+<th align="right">ROI Reflectance Curves</th>
 </tr>
 </table>
 
