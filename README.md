@@ -14,8 +14,6 @@ pixel-spectrum inspection, and false-color wavelength visualization.
 
 ### False-color wavelength combinations
 
-![RGB wavelength grid](Result/rgb_grid_3x3.png)
-
 ### Wavelength animation
 
 ![Wavelength sweep](Result/wavelength_sweep.gif)
