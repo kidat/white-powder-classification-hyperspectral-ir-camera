@@ -25,12 +25,13 @@ color differences between white powder samples.
 
 The colored regions in **Selected ROIs** correspond to the same ROI curves shown in **ROI Reflectance Curves**.
 
-### False-color wavelength combinations
+### Discriminative Band Visualization
 
 ![Wavelength sweep](Result/wavelength_sweep.gif)
 
-The animation changes the red, green, and blue channels independently using
-10 nm wavelength steps within their selected spectral ranges.
+The animation visualizes RGB composites generated from selected
+spectral bands. The bands are varied to identify combinations that
+maximize visible color differences between white powder samples.
 
 ## Run locally
 
