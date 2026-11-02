@@ -1,4 +1,6 @@
-# White Powder NIR–SWIR Hyperspectral Analysis
+# White Powder Hyperspectral Classification
+
+## NIR–SWIR Results
 
 This project analyzes white powder using an NIR–SWIR hyperspectral camera.
 The dataset contains 256 spectral bands spanning 918–2532 nm.
