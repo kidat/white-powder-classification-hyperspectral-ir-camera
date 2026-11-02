@@ -1,8 +1,10 @@
 # White Powder Hyperspectral IR Analysis
 
-This project analyzes white powder using hyperspectral infrared data
-(918–2532 nm). It performs white/dark reference correction, interactive
-pixel-spectrum inspection, and false-color wavelength visualization.
+This project analyzes white powder using an IR hyperspectral camera.
+The dataset contains 256 spectral bands spanning 918–2532 nm.
+White and dark reference correction is applied before extracting
+reflectance spectra and identifying spectral bands that maximize
+color differences between white powder samples.
 
 ## Results
 
